@@ -1,0 +1,5 @@
+name: 'user_timezone'
+type: module
+description: 'This module is created to take user timezone information and display it as a block.'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

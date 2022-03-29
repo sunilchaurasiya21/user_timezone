@@ -1,0 +1,9 @@
+user_timezone.user_timezone:
+  path: '/admin/config/user_timezone/usertimezone'
+  defaults:
+    _form: '\Drupal\user_timezone\Form\userTimezone'
+    _title: 'User Timezone'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

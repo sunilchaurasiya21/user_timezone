@@ -1,0 +1,13 @@
+user_timezone.settings:
+  type: config_object
+  label: 'User config form'
+  mapping:
+    city:
+      label: 'City'
+      type: 'textfield'
+    country:
+      label: 'Country'
+      type: 'textfield'
+    timezone:
+      label: 'User timezone'
+      type: 'select'
