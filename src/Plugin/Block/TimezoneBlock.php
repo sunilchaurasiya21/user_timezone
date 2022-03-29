@@ -30,17 +30,6 @@ use Drupal\user_timezone\TimezoneService;
  * )
  */
 
- /**
-  * @class
-  * Class TimezoneBlock.
-  * 
-  * @category Form
-  * @package  Form
-  * @author   Sunil Chaurasiya <chaurasiyasunil7@gmail.com>
-  * @license  GNU General Public License version 2 or later; see LICENSE
-  * @link     http://arctg.com
-  */
-
 class TimezoneBlock extends BlockBase implements ContainerFactoryPluginInterface
 {
 
@@ -96,7 +85,7 @@ class TimezoneBlock extends BlockBase implements ContainerFactoryPluginInterface
     /**
      * {@inheritdoc}
      * 
-     * @return bool
+     * @return array
      */
     public function build()
     {
